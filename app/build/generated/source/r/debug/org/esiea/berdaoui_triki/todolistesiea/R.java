@@ -813,9 +813,10 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
+        public static final int ic_launcher=0x7f020057;
     }
     public static final class id {
-        public static final int action_add_task=0x7f0c003e;
+        public static final int action_add_task=0x7f0c0044;
         public static final int action_bar=0x7f0c001c;
         public static final int action_bar_activity_content=0x7f0c0000;
         public static final int action_bar_container=0x7f0c001b;
@@ -829,13 +830,19 @@ containing a value of this type.
         public static final int action_mode_close_button=0x7f0c0024;
         public static final int activity_chooser_view_content=0x7f0c0025;
         public static final int always=0x7f0c0013;
+        public static final int bChrono=0x7f0c0041;
+        public static final int bLink=0x7f0c0040;
+        public static final int bPause=0x7f0c003d;
+        public static final int bReset=0x7f0c003f;
+        public static final int bStart=0x7f0c003c;
         public static final int beginning=0x7f0c000f;
         public static final int checkbox=0x7f0c002d;
+        public static final int chrono=0x7f0c003e;
         public static final int collapseActionView=0x7f0c0014;
         public static final int default_activity_button=0x7f0c0028;
         public static final int dialog=0x7f0c0018;
         public static final int disableHome=0x7f0c0009;
-        public static final int doneButton=0x7f0c003d;
+        public static final int doneButton=0x7f0c0043;
         public static final int dropdown=0x7f0c0019;
         public static final int edit_query=0x7f0c0030;
         public static final int end=0x7f0c0010;
@@ -872,7 +879,7 @@ containing a value of this type.
         public static final int split_action_bar=0x7f0c001e;
         public static final int submit_area=0x7f0c0039;
         public static final int tabMode=0x7f0c0008;
-        public static final int taskTextView=0x7f0c003c;
+        public static final int taskTextView=0x7f0c0042;
         public static final int title=0x7f0c002b;
         public static final int top_action_bar=0x7f0c0020;
         public static final int up=0x7f0c0021;
@@ -907,9 +914,11 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040015;
         public static final int abc_search_view=0x7f040016;
         public static final int abc_simple_decor=0x7f040017;
-        public static final int main=0x7f040018;
-        public static final int support_simple_spinner_dropdown_item=0x7f040019;
-        public static final int task_view=0x7f04001a;
+        public static final int activity_main=0x7f040018;
+        public static final int activity_main2=0x7f040019;
+        public static final int main=0x7f04001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f04001b;
+        public static final int task_view=0x7f04001c;
     }
     public static final class menu {
         public static final int menu=0x7f0d0000;
@@ -933,6 +942,7 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f06000c;
         public static final int action_settings=0x7f06000d;
         public static final int app_name=0x7f06000e;
+        public static final int title_activity_main2=0x7f06000f;
     }
     public static final class style {
         /**  Customize your theme here. 

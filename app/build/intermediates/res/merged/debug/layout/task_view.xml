@@ -25,4 +25,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:onClick="onDoneButtonClick" />
+
+
 </RelativeLayout><!-- From: file:/C:/Users/Amine/AndroidStudioProjects/TodolistEsiea/app/src/main/res/layout/task_view.xml -->

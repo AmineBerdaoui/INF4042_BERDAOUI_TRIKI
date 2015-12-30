@@ -141,6 +141,7 @@
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">TodolistEsiea</string>
+    <string name="title_activity_main2">Main2Activity</string>
     <!-- From: file:/C:/Users/Amine/AndroidStudioProjects/TodolistEsiea/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
