@@ -68,7 +68,7 @@ public class Main2Activity extends ActionBarActivity implements View.OnClickList
 
             case R.id.bLink:
                 Context context = getApplicationContext();
-                CharSequence text = "Ceci est un toast";
+                CharSequence text = "Veuillez patienter un instant";
                 int duration = Toast.LENGTH_SHORT;
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();

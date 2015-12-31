@@ -19,7 +19,7 @@
         android:id="@+id/bChrono"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
-         />
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>
 <!-- From: file:/C:/Users/Amine/AndroidStudioProjects/TodolistEsiea/app/src/main/res/layout/main.xml -->
