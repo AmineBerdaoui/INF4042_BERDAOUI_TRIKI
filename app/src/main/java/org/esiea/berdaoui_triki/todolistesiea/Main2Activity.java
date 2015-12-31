@@ -59,7 +59,7 @@ public class Main2Activity extends ActionBarActivity implements View.OnClickList
             case R.id.bPause:
                 time = chrono.getBase() - SystemClock.elapsedRealtime();
                 chrono.stop();
-                //notification();
+                notification();
                 break;
 
             case R.id.bReset:
@@ -79,7 +79,7 @@ public class Main2Activity extends ActionBarActivity implements View.OnClickList
     }
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
-    public void notification(){
+    /*public void notification(){
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this).setSmallIcon(R.drawable.ic_launcher).setContentTitle("Notification").setContentText("Reprend ton souffle");
         Intent resultIntent = new Intent(this, Main2Activity.class);
         TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
@@ -92,6 +92,16 @@ public class Main2Activity extends ActionBarActivity implements View.OnClickList
                 );
         builder.setContentIntent(resultPendingIntent);
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-        notificationManager.notify(0, builder.build());
+        notificationManager.notify(0, builder.build());e
+    }*/
+    public void notification() {
+        NotificationCompat.Builder wat =
+                new NotificationCompat.Builder(this)
+                        .setSmallIcon(R.mipmap.ic_launcher)
+                        .setContentTitle("Notification")
+                        .setContentText(getString(R.string.end));
+        NotificationManager manager = ((NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE));
+        manager.notify(1,wat.build());
     }
+
 }
